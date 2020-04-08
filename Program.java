@@ -1,13 +1,13 @@
-import java.util.Scanner;
+import java.util.*;  
 
 class Program
 {
   public static void main(String args[])
   {
-     int num;
+     String num;
    
      Scanner in = new Scanner(System.in);
-     num = in.nextInt();
-     System.out.println(num+1);
+     num = in.nextLine();
+     System.out.println(num+" ghi");
   }
 }
