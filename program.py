@@ -1,2 +1,2 @@
 t = int(input())
-print(a+1)
+print(t+1)
