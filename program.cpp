@@ -4,5 +4,5 @@ int main()
 {
 	int num;
 	cin>>num;
-	cout<<num;
+	cout<<num+1;
 }
