@@ -4,10 +4,10 @@ class Main
 {
   public static void main(String args[])
   {
-     String num;
+     int num;
    
      Scanner in = new Scanner(System.in);
-     num = in.nextLine();
-     System.out.println(num+" ghi");
+     num = in.nextInt();
+     System.out.println(num+1);
   }
 }
